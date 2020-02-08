@@ -1,0 +1,132 @@
+/* Global Styles*/
+
+body {
+
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+hr {
+    padding: 0 20px;
+}
+
+i {
+    color: rgb(100, 149, 237, 50%);
+}
+
+.container{
+    margin: 0 auto 0 auto;
+    padding-bottom: 5rem;
+}
+
+.projectsHeaderImage {
+    background: url("images/headerImg.png");
+    background-size: cover;
+    height: 25rem;
+    color: #ffffff;
+}
+
+.line-style{
+    border-style: none;
+    border-top: 1rem dotted #000;
+    width: 8rem;
+}
+
+.bold-font{
+    font-weight: bold;
+}
+
+/* About Page Styles */
+
+.about-container, .list-group {
+
+    margin: 0 auto 0 auto;
+}
+
+/* Projects Page Styles */
+
+.tech-used{
+    padding-bottom: 10px;
+}
+
+.fa-html5 {
+    color: #FF8C00;
+
+}
+
+.fa-css3-alt {
+    color: #00BFFF;
+}
+
+.fa-node-js {
+    color: #32CD32;
+}
+
+.fa-envira {
+    color:#6B8E23;
+}
+
+.fa-bootstrap {
+    color: #663399;
+}
+
+.fa-npm {
+    color: #DC143C;
+}
+
+.fa-sass {
+    color: #DB7093;
+}
+
+.fa-angular {
+    color: #da2d2d;
+}
+
+.fa-python {
+    color: #4169E1;
+}
+
+/* Contact Page Styles */
+
+.contact-icon-container {
+    padding-top:10rem;
+}
+
+.contact-links {
+    text-align: center;
+}
+
+.contact-links .fab {
+    padding: 4rem;
+    border-radius: 100%;
+    color: white;
+}
+
+.contact-links .fa-linkedin-in {
+    background-color: #87CEFA;
+}
+
+.contact-links .fa-github-alt {
+    background-color: #FFD700;
+}
+
+.contact-links .fa-facebook {
+    background-color: #f67280;
+}
+
+.contact-links .fa-dribbble {
+    background-color: #c299fc;
+}
+
+.contact-links .fa-envelope-open-text {
+    background-color: #a6ed8e;
+}
+
+.contact-links .fa-codepen {
+    background-color: #ffc5a1;
+}
+
+.contact-links .fab:hover {
+    background-color: #00BFFF;
+}
