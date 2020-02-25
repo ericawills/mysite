@@ -21,7 +21,7 @@ i {
 }
 
 .projectsHeaderImage {
-    background: url("./images/headerImg.jpg");
+    background: url("images/header-img.jpg");
     background-size: cover;
     height: 25rem;
     color: #ffffff;
@@ -89,16 +89,13 @@ i {
 
 /* Contact Page Styles */
 
-.contact-icon-container {
-    padding-top:10rem;
-}
-
 .contact-links {
     text-align: center;
+    padding: 2rem;
 }
 
 .contact-links .fab {
-    padding: 4rem;
+    padding: 1rem;
     border-radius: 100%;
     color: white;
 }
