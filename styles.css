@@ -1,12 +1,32 @@
 /* Global Styles*/
 
-body {
-
+.body {
+ background-color: #ffffff;
 }
 
-h1 {
+h1, h2 {
+    color: #303841;
     padding-bottom: 10px;
+    padding-top: 15px;
 }
+
+
+.text-border {
+    border-style: none;
+    border: 3px solid #beebe9;
+    border-radius: 5%;
+    padding: 2px;
+}
+
+.navbrand-slash {
+    color: #c7f2e3;
+}
+
+h3, h6 {
+
+    color: #A9A9A9;
+}
+
 hr {
     padding: 0 20px;
 }
@@ -15,16 +35,37 @@ i {
     color: rgb(100, 149, 237, 50%);
 }
 
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+}
+
 .container{
     margin: 0 auto 0 auto;
     padding-bottom: 5rem;
 }
 
 .projectsHeaderImage {
-    background: url("images/header-img.jpg");
+    background: url("images/header-image.jpg");
     background-size: cover;
     height: 25rem;
     color: #ffffff;
+}
+
+.fixed-bottom {
+    background-color: none;
+    background-color: #e1f4f3;
 }
 
 .line-style{
@@ -37,6 +78,12 @@ i {
     font-weight: bold;
 }
 
+.projects-button {
+    padding-top: 1rem;
+}
+
+
+
 /* About Page Styles */
 
 .about-container, .list-group {
@@ -45,6 +92,24 @@ i {
 }
 
 /* Projects Page Styles */
+
+.iframe-container{
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    padding-bottom: 2rem;
+    top: 0;
+    width: 100%;
+
+}
 
 .tech-used{
     padding-bottom: 10px;

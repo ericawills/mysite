@@ -14,36 +14,14 @@
 
         <title>Erica W</title>
 
-    <style>
-    body {
-        background-color: #F0F8FF;
-    }
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
 
     <link href="jumbotron.css" rel="stylesheet">
   </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="index.html">Erica W</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <body class="body">
+    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="index.html">E <span class="navbrand-slash">/</span> W</a>
 
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+  <div>
     <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link active" href="index.html">Home</a>
@@ -53,6 +31,9 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Software-Developer-Resume.pdf" download target="_blank">Resume</a>
       </li>
 
     </ul>
@@ -65,11 +46,13 @@
 <div class="jumbotron projectsHeaderImage">
   <div class="container">
 
-    <h1 class="display-3"> Hi, I'm Erica.</h1>
+    <h1 class="display-3"> Hi, I'm <span class="text-border">Erica</span>.</h1>
     <h3>A Software Developer.</h3>
-    <p>Welcome to my page!</p>
-    <a class="btn btn-primary btn-lg" href="projects.html" role="button">Projects &raquo;</a>
-    <a class="btn btn-outline-light btn-lg" href="about.html" role="button">About &raquo;</a>
+
+    <div class="projects-button">
+        <a class="btn btn-dark btn-lg" style="color: #c7f2e3;" href="projects.html" role="button">View Projects &raquo;</a>
+    </div>
+
   </div>
 </div>
 
@@ -83,27 +66,27 @@
 
   <div class="row contact-links">
       <div class="col md-3">
-          <a href="mailto:eawilliams.tech@gmail.com"> <i class="fab fas fa-envelope-open-text fa-3x"></i></a>
+          <a href="mailto:eawilliams.tech@gmail.com" target="_blank"> <i class="fab fas fa-envelope-open-text fa-3x"></i></a>
       </div>
       <div class="col md-3">
-          <a href="https://www.linkedin.com/in/erica-w-21846797/"> <i class="fab fa-linkedin-in fa-3x"></i></a>
+          <a href="https://www.linkedin.com/in/erica-w-21846797/" target="_blank"> <i class="fab fa-linkedin-in fa-3x"></i></a>
       </div>
     <div class="col md-3">
-        <a href="https://github.com/ericawills"> <i class="fab fa-github-alt fa-3x"></i></a>
+        <a href="https://github.com/ericawills" target="_blank"> <i class="fab fa-github-alt fa-3x"></i></a>
     </div>
   </div>
   <div class="row contact-links">
 
       <div class="col md-3">
-          <a href="https://dribbble.com/ewilliams12395"> <i class="fab fa-dribbble fa-3x"></i></a>
+          <a href="https://dribbble.com/ewilliams12395" target="_blank"> <i class="fab fa-dribbble fa-3x"></i></a>
       </div>
 
       <div class="col md-3">
-          <a href="https://www.facebook.com/erica.williams.3591267"> <i class="fab fa-facebook fa-3x"></i></a>
+          <a href="https://www.facebook.com/erica.williams.3591267" target="_blank"> <i class="fab fa-facebook fa-3x"></i></a>
       </div>
 
       <div class="col md-3">
-          <a href="https://codepen.io/ewilliams12395"> <i class="fab fa-codepen fa-3x"></i></a>
+          <a href="https://codepen.io/ewilliams12395" target="_blank"> <i class="fab fa-codepen fa-3x"></i></a>
       </div>
 
   </div>
@@ -114,8 +97,11 @@
 
 </main>
 
-<nav class="navbar fixed-bottom navbar-light bg-light">&copy; Erica W, 2019-2020</nav>
-
 
   </body>
+
+  <footer>
+      <nav class="navbar fixed-bottom" style="background-color: #c7f2e3;">&copy; Erica W. 2020</nav>
+  </footer>
+
 </html>
